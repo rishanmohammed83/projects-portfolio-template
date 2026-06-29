@@ -9,7 +9,7 @@
  */
 
 export const site = {
-  url: 'https://example.com',
+  url: 'https://rishanmohammed83.github.io/projects-portfolio-template',
   meta: {
     title: 'Mohammed Rishan | Cybersecurity Analyst | SOC Analyst | Security+',
     description:

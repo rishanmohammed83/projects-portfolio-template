@@ -8,6 +8,12 @@ interface Props {
 
 const { variant } = Astro.props;
 const isSidebar = variant === 'sidebar';
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const avatarSrc = site.hero.avatarSrc.startsWith('/')
+  ? `${base}${site.hero.avatarSrc.slice(1)}`
+  : `${base}${site.hero.avatarSrc}`;
 ---
 
 {isSidebar ? (
@@ -15,7 +21,7 @@ const isSidebar = variant === 'sidebar';
     <div class="relative group mb-8 reveal-content flex justify-center" style="animation-delay: 100ms;">
       <div class="balloon-float h-[180px] w-[180px] rounded-full border-2 border-accent overflow-hidden bg-black/25 p-3 shadow-[0_0_50px_color-mix(in_srgb,var(--color-accent)_33%,transparent)]">
         <img
-          src={site.hero.avatarSrc}
+          src={avatarSrc}
           alt={site.hero.avatarAlt}
           class="h-full w-full rounded-full object-contain"
           loading="eager"
@@ -45,7 +51,7 @@ const isSidebar = variant === 'sidebar';
     <div class="relative mb-4">
       <div class="h-[120px] w-[120px] rounded-full border-2 border-accent overflow-hidden bg-black/25 p-2 shadow-[0_0_40px_color-mix(in_srgb,var(--color-accent)_28%,transparent)]">
         <img
-          src={site.hero.avatarSrc}
+          src={avatarSrc}
           alt={site.hero.avatarAlt}
           class="h-full w-full rounded-full object-contain"
           loading="eager"
