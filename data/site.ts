@@ -11,22 +11,22 @@
 export const site = {
   url: 'https://example.com',
   meta: {
-    title: 'Alex Morgan | Full-stack engineer',
+    title: 'Mohammed Rishan | Cybersecurity Analyst | SOC Analyst | Security+',
     description:
       'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
   hero: {
-    name: 'Alex Morgan',
-    role: 'Full-stack engineer',
-    tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
-    contact: 'Open to collaborations and senior IC roles on product-minded teams.',
-    avatarSrc: '/favicon.svg',
-    avatarAlt: 'Alex Morgan',
+    name: 'Mohammed Rishan',
+    role: 'Cybersecurity Analyst | SOC Analyst | Security+',
+    tagline: 'Transitioning from 5+ years of software engineering into cybersecurity through hands-on labs, security monitoring, vulnerability assessment, and incident response.',
+    contact: 'Open to collaborations on Cybersecurity roles.',
+    avatarSrc: '/avatar.png',
+    avatarAlt: 'Mohammed Rishan',
   },
   about: {
     paragraphs: [
-      'A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.',
-      'I care about clear boundaries between modules, automated checks in CI, and documentation that helps the next contributor ship safely.',
+      'I am a cybersecurity enthusiast with over five years of experience in software engineering. After earning my CompTIA Security+ certification, I began building practical cybersecurity skills through hands-on labs involving SIEM, vulnerability management, Active Directory, Windows Server, Linux, and network security.',
+      'I am seeking an entry-level SOC Analyst or Cybersecurity Analyst opportunity in the UAE.',
       {
         heading: 'Example focus areas',
         bullets: [
@@ -37,87 +37,57 @@ export const site = {
       },
       {
         heading: 'Sample stack',
-        techItems: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vitest'],
+        techItems: ['Windows', 'Linux', 'MacOS', 'SIEM', 'Swift', 'JavaScript', 'Bash', 'Java', 'TCP/IP', 'VPN', 'MySQL', 'MongoDB', 'Vulnerability Assessment', 'Incident Response'],
       },
     ],
   },
   experiences: [
     {
-      period: '2025',
-      title: 'Lead Product Designer',
-      company: 'Lumen Studio',
+      period: '2023 - 2025',
+      title: 'App Development Analyst',
+      company: 'Accenture Malaysia',
       summary:
-        'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
+        'Developed and implemented comprehensive security features for the UOB TMRW SG iOS app, effectively safeguarding sensitive user data across four countries and ensuring rigorous compliance with regional cybersecurity regulations and industry standards.',
       highlights: [
-        'Designed and shipped the complete website using Astro, Tailwind CSS, and content-driven components',
-        'Crafted consistent responsive layouts and accessible typography across desktop and mobile',
-        'Optimized asset delivery and performance for sub-1s page load metrics',
+        'Played an active role in the development process from concept to production, with a strong focus on security during the testing phases (staging, UAT), ensuring robust protection.',
+        'Conducted periodic security audits of the iOS app, identifying potential vulnerabilities and implementing necessary safeguards. Collaborated with external security firms to perform penetration testing and ensure compliance with industry security standards.',
+        'Managed team tasks based on story points, prioritizing the resolution of security-related blockers. Ensured the app’s stability during updates, addressing and resolving issues through hotfixes as needed.',
       ],
-      tech: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vite'],
+      tech: ['Swift', 'MySQL', 'Splunk', 'Jira', 'Xcode'],
     },
     {
-      period: '2024',
-      title: 'Frontend Architect',
-      company: 'Nova Launch',
+      period: '2020 - 2023',
+      title: 'Junior Software Engineer',
+      company: 'Alignminds Technologies Pvt Ltd',
       summary:
-        'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
+        'Minder is an award-winning technology consulting company that specializes in product engineering in web and mobile apps.',
       highlights: [
-        'Implemented a component-based design system with reusable cards, buttons, and hero sections',
-        'Built content-driven project pages, archive views, and client-side navigation enhancements',
-        'Added cross-browser polish and performance tuning with image optimization and lazy loading',
+        'Maintained 70% code coverage throughout development of new features by writing comprehensive unit test code for newly created view models.',
+        'Daily scrum standup to coordinate team’s resources to clear blockers. Also independently handled requirements from start to finish with the business and UI team.',
       ],
-      tech: ['Astro', 'TypeScript', 'Tailwind CSS', 'Node', 'Vite'],
-    },
-    {
-      period: '2023',
-      title: 'UI Engineer',
-      company: 'Orbital Creative',
-      summary:
-        'Created an interactive product showcase with a clean visual system and accessible component library.',
-      highlights: [
-        'Built a flexible project card system for content updates without code changes',
-        'Improved brand consistency with typography, color, and motion guidelines',
-        'Added testing and quality checks for cross-device UI fidelity',
-      ],
-      tech: ['Astro', 'Tailwind CSS', 'JavaScript', 'Node', 'Vitest'],
+      tech: ['Swift', 'Dart', 'MySQL', 'Java', 'Xcode'],
     },
   ],
   featuredProjects: [
     {
-      title: 'Lumen Studio Website',
+      title: 'UOB TMRW iOS App',
       period: '2025',
-      summary: 'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
-      solution: 'Designed a modular component system with Astro and Tailwind CSS, ensuring consistent brand experience across all breakpoints.',
-      impact: 'Achieved sub-1s page load metrics and 95+ Lighthouse scores through optimized asset delivery and lazy loading strategies.',
-      image: 'astro-01.webp',
+      summary: 'UOB TMRW is the flagship all-in-one digital banking and finance app developed by United Overseas Bank (UOB). It provides users with personalized money insights, digital banking tools, wealth management, cardless ATM cash withdrawals, and reward redemption programs',
+      solution: 'The UOB TMRW app solves fragmented financial tracking by consolidating daily banking, automated budgeting, localized rewards, and global wealth management into a single mobile platform.',
+      impact:  [
+        'Users get an automated, clear breakdown of where their money goes, helping them cut unnecessary expenses without manual spreadsheet tracking. ',
+        'The app optimizes spending by automatically surfacing relevant merchant discounts, tracking expiring reward points, and offering competitive FX rates via Mighty FX.',
+        ],
+      image: 'TMRW-UOB.png',
       imageAlt: 'Lumen Studio website showcase',
       techCategories: [
         {
           category: 'Frontend',
-          items: ['TypeScript', 'Astro', 'Tailwind CSS', 'Responsive Design'],
+          items: ['Swift', 'Splunk', 'UIKit', 'Responsive Design'],
         },
         {
           category: 'Performance',
-          items: ['Asset Optimization', 'Lazy Loading', 'Image CDN'],
-        },
-      ],
-    },
-    {
-      title: 'Nova Launch Marketing Platform',
-      period: '2024',
-      summary: 'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
-      solution: 'Implemented a content-driven architecture with reusable card components and dynamic project pages, enabling non-technical content updates.',
-      impact: 'Reduced content update time by 80% through intuitive component-based structure; enabled marketing team independence.',
-      image: 'astro-02.jpeg',
-      imageAlt: 'Nova Launch platform interface',
-      techCategories: [
-        {
-          category: 'Frontend',
-          items: ['Astro', 'TypeScript', 'Tailwind CSS'],
-        },
-        {
-          category: 'Developer Experience',
-          items: ['Vite', 'ESLint', 'Automated Testing'],
+          items: ['Code Optimization', 'Unit Test', 'UI Test', 'Secure Coding Practices'],
         },
       ],
     },
@@ -128,16 +98,15 @@ export const site = {
     intro: 'A concise archive of engagements and representative work.',
   },
   projectArchive: [
-    { date: '2025', project: 'Design system rollout', role: 'Frontend', techStack: 'Astro, CSS, Storybook' },
-    { date: '2024', project: 'Checkout reliability', role: 'Full-stack', techStack: 'TypeScript, Postgres, Redis' },
-    { date: '2024', project: 'Auth hardening', role: 'Backend', techStack: 'OAuth2, JWT, rate limits' },
-    { date: '2023', project: 'Analytics pipeline', role: 'Data', techStack: 'SQL, dbt, warehouse' },
-    { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
+    { date: '2025', project: 'UOB TMRW iOS', role: 'Frontend', techStack: 'Swift, UIKit, Jira, SQL, Splunk' },
+    { date: '2022', project: 'Minder iOS', role: 'Frontend', techStack: 'Swift, Jira, SQL' },
+    { date: '2022', project: 'Plam Hotel Flutter', role: 'Frontend', techStack: 'Dart, MySQL, Jira' },
+    { date: '2021', project: 'Jeet iOS', role: 'Frontend', techStack: 'Swift, UIKit' },
   ],
   contact: {
-    email: 'hello@example.com',
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
+    email: 'mrishan.dev@gmail.com',
+    github: 'https://github.com/rishanmohammed83',
+    linkedin: 'https://www.linkedin.com/in/mohammedrishantt',
   },
 } as const;
 
