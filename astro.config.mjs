@@ -4,7 +4,7 @@ import icon from 'astro-icon';
 
 export default defineConfig({
   site: 'https://rishanmohammed83.github.io',
-  base: '/projects-portfolio-template',
+  base: '/portfolio',
   output: 'static',
   vite: {
     plugins: [tailwindcss()],
